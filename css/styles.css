@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6,p{
 img{
     display:block;
 }
-/*commion*/
+/*common*/
 
 .container{
     max-width: 1158px;
@@ -69,7 +69,7 @@ img{
 .contacts-list{
     display: flex;
     align-items: center;
-    gap
+    gap:40px;
 }
 .contacts-link{
     color: #434455;
@@ -101,8 +101,6 @@ margin-right:76px;
     text-decoration:underline;
 }
 
-
-
 .nav-link:hover{
 color: #404bbf;
 }
@@ -112,16 +110,19 @@ color:#404bbf
 }
 
 
-
-.contacts:hover, .contacts:focus {
+.contacts-link:hover, .contacts-link:focus {
 color: #404bbf;
 }
 
 .main-section{
     background-color: #2e2f42;
+    padding-bottom: 188px;
 }
 
 .main-text{
+width:496px;
+padding:188px 0px 48px 0px;
+margin:0 auto;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -130,12 +131,18 @@ text-align: center;
 color: #ffffff;
 }
 
-button{
+.button {
+width:169px;
+height: 56px;
 background: #4d5ae5;
 cursor: pointer;
+margin-left: auto;
+margin-right: auto;
 }
+
 button:hover, button:focus{
 background: #404bbf;
+
 }
 
 .button-text{
@@ -145,13 +152,31 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+
 }
+/*Benefits*/
+
+.benefits-container{
+    display: flex;
+    align-items: center;
+}
+
+.info-holder{
+    display: flex;
+    flex-basis: calc((100%-72px) / 4);
+    gap: 24px;
+    padding: 120px 0;
+}
+
+
+
 .caption {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-bottom: 8px;
 }
 
 .info-text{
