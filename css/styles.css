@@ -156,11 +156,9 @@ button{
 
 button:hover, button:focus{
 background: #404bbf;
-
 }
 
 .button-text{
-    margin:0 auto;
 padding: 16x 32px;
 gap: 10px;
 font-family: "Roboto", sans-serif;
