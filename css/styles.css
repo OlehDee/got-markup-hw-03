@@ -320,11 +320,14 @@ margin-bottom: 72px;
 
 /*footer*/
 
-
+.page-bottom{
+    padding:100px 0;
+    background-color: #2e2f42;
+    
+}
 .footer-container{
     background-color: #2e2f42;
     max-width: 1158px;
-    padding: 100px 0 100px;
     margin:0 auto;
 }
 .footer-text{
