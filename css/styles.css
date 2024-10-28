@@ -219,6 +219,7 @@ color: #434455;
 /*Team*/
 .team-section{
     background-color: #F4F4FD;
+    
 }
 
 .team-list{
@@ -232,7 +233,8 @@ color: #434455;
 }
 
 .name-position{
-    padding: 32px 0;
+
+    padding: 0 0 0 0;
 }
 .team-name{
     font-weight: 500;
@@ -241,15 +243,14 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding: 32px 0px 16px;
-    margin-bottom: 8px;
+    padding: 32px 0px 8px;
+    
 }
 .paragraph{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 8px;
     padding-bottom: 32px;
 }
 
@@ -298,12 +299,11 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 32px 0px 16px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 8px;
+   margin-bottom: 8px;
 }
 
 .text-portfolio{
@@ -311,11 +311,10 @@ margin-bottom: 72px;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
+    
 }
 
 
@@ -343,7 +342,8 @@ color: #f4f4fd;
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
-
+    padding:0 0;
+    margin-right: 0;
 }
 
 
